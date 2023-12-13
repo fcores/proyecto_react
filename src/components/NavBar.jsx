@@ -8,9 +8,6 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
     <>
-      <div className="alert alert-primary d-flex justify-content-center align-items-center" role="alert">
-          <h1>Primer Entrega Carrito de Compras</h1>
-      </div>
 
       <nav className="navbar navbar-expand-lg bg-primary border-bottom border-body"  data-bs-theme="dark">
           <div className="container-fluid">
@@ -33,7 +30,6 @@ const NavBar = () => {
                     <Link to={`/about`}>
                       Quienes Somos
                     </Link>
-                    
                   </a>
                 </li>
                 
